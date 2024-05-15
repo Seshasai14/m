@@ -1,0 +1,14 @@
+.background1{
+    background-image:linear-gradient(65.73deg, #8FACFF -46.54%, #000AFF 157.72%); 
+    min-height: 100vh;
+}
+.background2{
+    background-color: url(./assets/images/left_sub_hero_image.png);
+}
+.left-aligned-image {
+    float: left !important;
+    position: absolute;
+    bottom: 0px !important;
+    max-width: 100%;
+    height: auto;
+  }

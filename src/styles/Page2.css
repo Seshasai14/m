@@ -1,0 +1,50 @@
+/* Page2.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+.container.row.col-lg-2 img {
+    width: 100%; /* Makes the image take the full width of its container */
+    height: auto; /* Adjusts the height automatically to maintain aspect ratio */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio while fitting within its container */
+}
+.text{
+    text-align: center;
+}
+.text h1 {
+    color:#4E7CFF;
+    position: relative;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+  }
+  .text h1::before {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Adjust the height of the underline */
+    left: 0;
+    width: 50%; /* Adjust the width of the underline */
+    height: 1px; /* Thickness of the underline */
+    background-color: #4E7CFF; /* Color of the underline */
+  }
+.text h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.text button{
+    border-radius: 5px;
+    padding:10px;
+    background-color:#FF8D4F;
+    border:none;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
