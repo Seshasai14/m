@@ -1,12 +1,11 @@
 /* Page2.css */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 .container.row.col-lg-2 img {
     width: 100%; /* Makes the image take the full width of its container */
     height: auto; /* Adjusts the height automatically to maintain aspect ratio */
     object-fit: contain; /* Ensures the image maintains its aspect ratio while fitting within its container */
 }
 .text{
-    text-align: center;
+    text-align: left;
 }
 .text h1 {
     color:#4E7CFF;
@@ -46,5 +45,24 @@
     font-weight: 500;
     font-style: normal;
 }
+.wrapper{
+    position:relative;
+    width:100%
+}
 
+.container-5 .center {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .container-5 .center::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background-color: #4E7CFF;
+  }
+  
 

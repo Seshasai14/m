@@ -5,7 +5,7 @@ import lefthero from '../assets/images/Whats_new_side_fullimage.png';
 
 const Page2 = () => {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-5 d-flex justify-content-center align-items-center">
                     <div className='text'>

@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.background1{
+    background-image: url(../assets/images/bg-image.png) !important;
+    /* background-image:linear-gradient(65.73deg, #8FACFF -46.54%, #000AFF 157.72%);  */
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background2{
+    background-color: url(./assets/images/left_sub_hero_image.png);
+}
+
+.left_img{
+    float: left !important;
+    max-width: 50%; 
+    position: absolute;
+    bottom: -4.5% !important;
+    left: 0%;
+    z-index: 1 !important;
+}
+.right_hero{
+    width:100%;
+    z-index: 99;
+    position: relative;
+}
+
+.Heading_right_hero{
+    text-align: left;
+    color:#ffffff;
+    position: relative;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+}
+
+.Title_1 {
+    font-weight: 700;
+    margin-top: 95px !important;
+    margin-left: 50px;
+}
+
+.Warehouse_text{
+    color:#FEAF84;
+}
+.row{
+    position: relative;
+}
+.left_col{
+    position: absolute
+}
+.sub_image{
+    width:20%;
+}
+.sub_1{
+    margin-left: 5%;
+    margin-top:5%;
+}
+.sub_2{
+    margin-left: 8%;
+    margin-top:18%;
+}
+/*-----------------------*/  
+.subHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* Align elements to the right side */
+    align-items: center;
+    height: 50vh;
+    /* Ensure subHolder takes full height but within viewport */
+}
+
+.sub1,
+.sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub1 {
+    margin-top: -5%;
+    /* Move slightly up */
+}
+
+.sub2 {
+    margin-top: 5%;
+    /* Move slightly down */
+}
+
+.sub1 img {
+    max-height: 50vh; /* Ensure images do not exceed viewport height */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 15px; /* Reduce left margin */
+    margin-right: 0; /* No right margin */
+}
+
+.sub2 img {
+    max-height: 50vh; /* Ensure images do not exceed viewport height */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Reduce left margin further */
+    margin-right: 0; /* No right margin */
+}
+.leftmix{
+    display:flex;
+    flex-direction: column;
+}
+.arrow-image {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    max-width: 18%; /* Adjust size as needed */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .arrow-image {
+        max-width: 60px; /* Adjust size for smaller screens */
+    }
+}
+/*Drop 1 CSS*/
+.top-image {
+    position: absolute; /* Position the image absolutely */
+    top: 50%; /* Place it at the vertical center of the container */
+    right: 70%; /* Center it horizontally */
+    transform: translate(-70%, -100%); /* Adjust vertical centering */
+    max-width: 100px; /* Adjust the maximum width as needed */
+}
+/*Drop-2 CSS*/
+.top-image-v {
+    position: absolute; /* Position the image absolutely */
+    top: 50%; /* Place it at the vertical center of the container */
+    right: 60%; /* Center it horizontally */
+    transform: rotate(90deg) translate(-80%, -40%); /* Adjust vertical centering */
+    max-width: 70px; /* Adjust the maximum width as needed */
+}
+
+

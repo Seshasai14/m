@@ -21,7 +21,7 @@ header {
 header li {
   list-style: none;
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 25px;
 }
 
 header a {
@@ -57,4 +57,26 @@ header a:hover {
     display: block;
     margin-bottom: 10px;
   }
+  .nav-btn{
+    margin-left:10px !important;
+  }
+}
+.nav-btn{
+  border-radius: 5px;
+  padding:10px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#FF8D4F;
+  border:none;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  /* margin-left:-1%; */
+}
+.App-logo:hover{
+  display: block !important;
+}
+.App-logo{
+  max-width: 70%;
 }

@@ -1,0 +1,28 @@
+.container-5 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center aligns the content */
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.4rem;
+  color: #4E7CFF;
+  position: relative;
+}
+
+.center::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #4E7CFF;
+}
+
+.companies {
+  margin-top: 20px;
+}

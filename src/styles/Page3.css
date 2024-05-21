@@ -1,0 +1,44 @@
+.col-lg-5{
+    padding-left:100px ;
+}
+.text-3{
+    text-align: left;
+}
+.text-3 h1 {
+    color:#4E7CFF;
+    position: relative;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+  }
+  .text-3 h1::before {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Adjust the height of the underline */
+    left: 0;
+    width: 50%; /* Adjust the width of the underline */
+    height: 1px; /* Thickness of the underline */
+    background-color: #4E7CFF; /* Color of the underline */
+  }
+.text-3 h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.text-3 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.text-3 button{
+    border-radius: 5px;
+    padding:10px;
+    background-color:#FF8D4F;
+    border:none;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
