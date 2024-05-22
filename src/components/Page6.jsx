@@ -1,14 +1,15 @@
-import React from 'react'
-import '../styles/Page5.css'
-
+import React from 'react';
+import ourPeople from '../assets/images/ourPeople.png'
+import '../styles/Page6.css'
 const Page6 = () => {
     return (
-        <div className='container-5'>
-            <div className='center'>
-                <h1>Our people</h1>
+        <div className='containe'>
+            <div className='centr'>
+                <h1>Our People</h1>
             </div>
+            <img className='ourPeople' src={ourPeople} alt="Our People" />
         </div>
-    )
+    );
 }
 
-export default Page6
+export default Page6;

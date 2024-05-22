@@ -1,19 +1,25 @@
 .container-f {
-    padding: 20px;
+    padding: 10px;
     background-color: #EEF2FF;
     color:#213A81;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
+    justify-content: space-between; /* Add this line */
 }
 
 .col-lg-4 {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    padding: 0 15px;
+   
     box-sizing: border-box;
 }
 
@@ -33,6 +39,9 @@
 .content h4 {
     font-size: 18px;
     margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .content a {
@@ -73,7 +82,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+.map{
+    height:25% !important;
+    width:25% !important;
+}
 .logos {
     margin-top: 20px;
     display:flex;
@@ -88,3 +100,19 @@ a:hover {
 a:hover{
     text-decoration: none;
 }
+.input-container {
+    max-width:40%;
+
+  }
+  .horizontal{display:flex; align-items: center;}
+  .horizontal .custom-button
+  {
+    border-radius:5px;
+    background-color: #213A81;
+    color:white;
+
+  }
+  .horizontal .form-control
+  {
+    height: 15% !important;
+  }

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Page2.css';
 
-import lefthero from '../assets/images/Whats_new_side_fullimage.png';
+import lefthero from '../assets/images/Whats_new_full_right_new_blue.png';
 
 const Page2 = () => {
     return (
@@ -17,7 +17,7 @@ const Page2 = () => {
                 </div>
                 <div className="col-lg-7 left-img">
                     {/* Updated img tag with img-fluid class */}
-                    <img src={lefthero} alt="Left Image" className="img-fluid" style={{objectFit: 'cover'}}></img>
+                    <img src={lefthero} alt="Left Image" className="img-fluid" style={{objectFit: 'cover',}}></img>
                 </div>
             </div>
         </div>

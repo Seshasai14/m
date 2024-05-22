@@ -6,7 +6,6 @@
 .background1{
     background-image: url(../assets/images/bg-image.png) !important;
     /* background-image:linear-gradient(65.73deg, #8FACFF -46.54%, #000AFF 157.72%);  */
-    min-height: 100vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,26 +118,87 @@
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .arrow-image {
-        max-width: 60px; /* Adjust size for smaller screens */
+
+.gif-temp{
+    height: 315px;
+    background: #2534a4;
+    border-radius: 20px;
+    width: 245px;
+    margin-left: 5%;
+}
+
+.gif-temp-1{
+    background-image: url(../assets/images/giphy.gif) !important; 
+    width: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.top-image-v{
+    position: relative;
+    top: -185px !important;
+    left: -35px;
+}
+
+.btn-exp,.btn-exp:hover {
+    width: 150px;
+    padding: 4px;
+    background: #ff8d4f;
+    color: white;
+    position: relative;
+    left: -165px;
+    top: 100px;
+    border-radius: 3px;
+}
+
+/* media queries */sub_button{
+padding-left:20px !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+    /* .sub1{
+        margin-top: -10%;
+        margin-left: 4%;
+    } */
+    
+    
+    /* .sub2{
+        margin-left: -6% !important;
+        } */
+        
+    /* .sub_video{
+        width: 60% !important;
     }
-}
-/*Drop 1 CSS*/
-.top-image {
-    position: absolute; /* Position the image absolutely */
-    top: 50%; /* Place it at the vertical center of the container */
-    right: 70%; /* Center it horizontally */
-    transform: translate(-70%, -100%); /* Adjust vertical centering */
-    max-width: 100px; /* Adjust the maximum width as needed */
-}
-/*Drop-2 CSS*/
-.top-image-v {
-    position: absolute; /* Position the image absolutely */
-    top: 50%; /* Place it at the vertical center of the container */
-    right: 60%; /* Center it horizontally */
-    transform: rotate(90deg) translate(-80%, -40%); /* Adjust vertical centering */
-    max-width: 70px; /* Adjust the maximum width as needed */
+    .sub_image{
+        width: 80% !important;
+    } */
+    .crack_line{
+        margin-top:20% !important;
+    }
+    .top-image
+    {
+    position: absolute;
+    top: 16% !important;
+    }
+
+    /* .top-image-v{
+         position: absolute;
+            top: 33% !important;
+            left: 35%;
+    } */
+
+    .right_hero{
+        margin-top: 3%;
+    }
+
+    .arrow-image{
+        width: 170px !important;
+    }
+    
 }
 
 

@@ -1,82 +1,77 @@
-/* Global */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica;
-}
-
-/* Header */
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px 50px;
-}
-
-#nav-title {
-  margin-right: auto;
-  font-size: 1.5em;
-}
-
-header li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 25px;
-}
-
-header a {
-  text-decoration: none;
-  color: #555;
-  transition: all 0.3s ease 0s;
-  color:white;
+.navbar-brand {
+  margin-left: 20px; /* Adjusted to create space between brand and text */
+  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-header a:hover {
-  text-decoration: none;
-  border-bottom: 0.3rem solid #FFC2A1;
-  border-radius:5px;
+.navbar-brand:hover {
+  color: #FFC2A1; /* Change brand color on hover */
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-  }
-  
-  header #nav-title {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  
-  header li {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .nav-btn{
-    margin-left:10px !important;
-  }
-}
-.nav-btn{
-  border-radius: 5px;
-  padding:10px;
-  padding-left:20px;
-  padding-right:20px;
-  background-color:#FF8D4F;
-  border:none;
-  color:white;
+.nav-link {
+  color: white;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  /* margin-left:-1%; */
+  position: relative; /* Required for the ::after pseudo-element */
 }
-.App-logo:hover{
-  display: block !important;
+
+/* Line Animation Code Below*/
+
+/* Thin white line below the link */
+.nav-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform: scaleX(0); /* Initially invisible */
+  transition: transform 0.3s ease; /* Smooth animation */
 }
-.App-logo{
-  max-width: 70%;
+
+/* Change text color and reveal line on hover */
+.nav-link:hover {
+  color: #FFC2A1;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1); /* Reveal the line */
+}
+
+/* Prevent animation and hover effect for SignUp */
+.nav-link.signup::after {
+  content: none; /* Remove the line */
+}
+
+.nav-link.signup:hover {
+  color: white; /* Keep the color unchanged */
+}
+
+/*Sign Up Button Styling*/
+.nav-link.signup {
+  background-color: #FF8D4F;
+  border-radius: 5px;
+}
+
+/* Make Space Between logo and nav-link and items */
+.nav-item {
+  margin-left: 25px; /* Adjusted to create space between items */
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1900px){
+  .navbar-nav{
+    margin-left: 10% !important;
+    margin-top: 2% ;
+  }
+  .signup{
+    margin-left: 100px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }
