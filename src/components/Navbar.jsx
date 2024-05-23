@@ -8,7 +8,7 @@ const Navbar = () => {
          <img
             className="navbar-brand"
             src={logo}
-            style={{ width: "195px", height: "42px",marginLeft:'4.5%' }}
+            style={{ width: "210px", height: "65px",marginLeft:'4.5%' }}
             alt="Logo"
          />
          <button

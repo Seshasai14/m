@@ -1,12 +1,12 @@
 import React from 'react'
-import rightHero from '../assets/images/Phoenix-anim-02.gif';
+import rightHero from '../assets/images/Phoenix-anim-03.gif';
 import bgdown from '../assets/images/ModulesBg.png';
 import '../styles/Page2.css';
 
 const Page4 = () => {
     return (
         <div className="container-fluid"style={{position:'relative',width:'100%'}}>
-            <div className="row wrapper">
+            <div className="row w-100 wrapper">
                 <div className="col-lg-5 d-flex justify-content-center align-items-center">
                     <div className='text'style={{ marginLeft: '5%' }}>
                         <h1>Modules</h1>
@@ -20,7 +20,7 @@ const Page4 = () => {
                     <img src={rightHero} alt="Left Image" className="img-fluid right-hero" style={{height:'70%'}}/>
                 </div>
             </div>
-            <img src={bgdown} alt="Background"  style={{ position: 'absolute', bottom: '0', width: '100%', zIndex: '-1'}} />
+            <img src={bgdown} alt="Background"  style={{ position: 'absolute', bottom: '0', width: '98%', zIndex: '-1'}} />
         </div>
     )
 }

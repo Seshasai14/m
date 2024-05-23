@@ -9,7 +9,7 @@ import { IoSend } from "react-icons/io5";
 const Footer = () => {
     return (
         <div className="container-f">
-            <div className="row">
+            <div className="row w-100">
                 <div className="col-lg-7">
                     <div className="Box">
                         <img className='map' src={map} alt="Map" />

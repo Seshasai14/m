@@ -6,7 +6,7 @@ import lefthero from '../assets/images/Whats_new_full_right_new_blue.png';
 const Page2 = () => {
     return (
         <div className="container-fluid">
-            <div className="row">
+            <div className="row w-100">
                 <div className="col-lg-5 d-flex justify-content-center align-items-center">
                     <div className='text'>
                         <h1>What's New</h1>

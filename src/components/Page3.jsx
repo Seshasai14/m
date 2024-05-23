@@ -6,7 +6,7 @@ const Page3 = () => {
     return (
         
         <div className="container-fluid">
-            <div className="row">
+            <div className="row w-100">
                 <div className="col-lg-7 left-img">
                     {/* Updated img tag with img-fluid class */}
                     <br/>

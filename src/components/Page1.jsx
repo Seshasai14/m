@@ -8,24 +8,25 @@ import crack_line from '../assets/images/crack_line_bottom.png'
 import arrow from '../assets/images/Arrow.png'
 import drop1 from '../assets/images/Drop1.png'
 import drop2 from '../assets/images/Droplet_Right.png'
-import giftemp from '../assets/images/giphy.gif'
+import under_line from '../assets/images/underline.png'
 
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const Page1 = () => {
   return (
     <div className='background1'>
-      <Navbar />
+      <Navbar/>
       <div>
         {/* left_sub_hero_image */}
         {/* right_hero_image */}
         <div className='container-fluid'>
-          <div className='row'>
+          <div className='row w-100'>
             <div className="col-lg-6 col-sm-12">
               <div className='Heading_right_hero '>
                 <img className='top-image' src={drop1} alt='drop1' /><br />
                 <h1 className='Title_1 mt-3 ml-5' style={{ marginBottom: '55px' }}>
-                  The Future of Logistics <br />And <span class="Warehouse_text">warehouse</span></h1>
+                  The Future of Logistics <br />And <span class="Warehouse_text">Warehouse</span></h1>
+                  <img src={under_line} alt="Arrow Image" className="underline" />
               </div>
               <div className="subHolder" >
                 <div className="sub1">

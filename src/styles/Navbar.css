@@ -1,3 +1,13 @@
+.navbar-nav{
+  margin-left: 20% !important;
+  margin-top: 2% ;
+}
+.signup{
+  margin-left: 476px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
 .navbar-brand {
   margin-left: 20px; /* Adjusted to create space between brand and text */
   color: white;
