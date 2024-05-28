@@ -160,8 +160,8 @@
 
 .top-image-v{
     position: relative;
-    top: -145px !important;
-    left: -35px;
+    top: -141px !important;
+    left: -47px;
 }
 
 .btn-exp,.btn-exp:hover {
@@ -184,7 +184,7 @@ padding-left:20px !important;
     .background1{
         background-image: url(../assets/images/bg-image.png) !important;
         width: 100%;
-        height: 115vh !important;
+        height: 127vh !important;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
